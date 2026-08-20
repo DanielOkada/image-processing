@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Rust: current bin",
+            "type": "shell",
+            "command": "cargo run --bin ${fileBasenameNoExtension}",
+            "problemMatcher": []
+        }
+    ]
+}
