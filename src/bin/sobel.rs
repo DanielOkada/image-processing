@@ -52,7 +52,6 @@ fn main() {
     // 端っこを含めないため
     for y in 1..(height - 1) {
         for x in 1..(width - 1) {
-            // 周囲9マスの重み付き平均値を求める
 
             let gx = apply_filter(&ori_img, &kernel_x, x, y);
             let gy = apply_filter(&ori_img, &kernel_y, x, y);
