@@ -36,5 +36,5 @@ fn main() {
         }
     }
 
-    img.save("images/out.png").unwrap();
+    img.save("out/median.png").unwrap();
 }

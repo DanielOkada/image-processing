@@ -82,5 +82,5 @@ fn main() {
         }
     }
 
-    img.save("images/out.png").unwrap();
+    img.save("out/otsu.png").unwrap();
 }

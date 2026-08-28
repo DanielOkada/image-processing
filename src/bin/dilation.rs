@@ -40,5 +40,5 @@ fn main() {
         }
     }
 
-    img.save("images/out.png").unwrap();
+    img.save("out/dilation.png").unwrap();
 }

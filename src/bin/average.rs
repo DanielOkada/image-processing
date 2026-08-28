@@ -34,5 +34,5 @@ fn main() {
         }
     }
 
-    img.save("images/out.png").unwrap();
+    img.save("out/average.png").unwrap();
 }

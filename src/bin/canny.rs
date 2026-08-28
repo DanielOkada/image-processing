@@ -262,5 +262,5 @@ fn main() {
 
     let result_img = hysteresis_threshold(edge_img);
 
-    result_img.save("images/out.png").unwrap();
+    result_img.save("out/canny.png").unwrap();
 }
