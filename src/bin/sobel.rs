@@ -64,5 +64,6 @@ fn main() {
         }
     }
 
+    std::fs::create_dir_all("out").unwrap();
     img.save("out/sobel.png").unwrap();
 }

@@ -40,5 +40,6 @@ fn main() {
         }
     }
 
+    std::fs::create_dir_all("out").unwrap();
     img.save("out/dilation.png").unwrap();
 }

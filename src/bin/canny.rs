@@ -262,5 +262,6 @@ fn main() {
 
     let result_img = hysteresis_threshold(edge_img);
 
+    std::fs::create_dir_all("out").unwrap();
     result_img.save("out/canny.png").unwrap();
 }
