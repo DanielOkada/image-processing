@@ -109,11 +109,11 @@ fn nms(g_img: &IntImage, theta_img: &FloatImage) -> IntImage {
             let direction = if norm_t >= PI / 8.0 && norm_t < 3.0 * PI / 8.0 {
                 Direction::Diagonal45
             } else if norm_t >= 3.0 * PI / 8.0 && norm_t < 5.0 * PI / 8.0 {
-                Direction::Horizontal
+                Direction::Vertical
             } else if norm_t >= 5.0 * PI / 8.0 && norm_t < 7.0 * PI / 8.0 {
                 Direction::Diagonal135
             } else {
-                Direction::Vertical
+                Direction::Horizontal
             };
 
             let neighbors = match direction {
